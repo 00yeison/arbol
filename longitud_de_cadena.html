@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Longitud de cadena | Arboles binarios </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Juan Luna, Yeison Morelo y Critian Alvares" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-7"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Arboles binarios</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="objetivos.html" class="no-ch">Objetivos</a></li>
+   <li class="current-page-parent"><a href="arbole_binarios.html" class="current-page-parent daddy">Arbole Binarios</a>
+   <ul>
+      <li><a href="propiedades.html" class="no-ch">Propiedades</a></li>
+      <li><a href="vrtices_internos.html" class="no-ch">Vértices Internos</a></li>
+      <li><a href="niveles_rbol.html" class="no-ch">Niveles Árbol</a></li>
+      <li id="active"><a href="longitud_de_cadena.html" class="active no-ch">Longitud de cadena</a></li>
+      <li><a href="construccin_de_un_rbol.html" class="no-ch">Construcción de un árbol</a></li>
+   </ul>
+   </li>
+   <li><a href="actividad.html" class="no-ch">Actividad</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="niveles_rbol.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="construccin_de_un_rbol.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Longitud de cadena</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id20">
+<div class="iDevice emphasis0">
+<div id="ta20_85" class="block iDevice_content">
+<h2><span style="font-family: arial, helvetica, sans-serif;"><strong><span class="a">Longitud de Camino Mínimo</span></strong></span></h2>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><span class="a">La longitud de camino minimo o longitud de camino interno (LCI) del árbol es la suma de las longitudes de camino de todos los </span><span class="a">nodos del árbol. Esta medida es importante porque permite conocer los caminos que tiene el </span><span class="a">árbol. Se calcula de la siguiente fórmula:</span></span></p>
+<p><span class="a"><img src="img0.3.png" width="114" height="68" alt="ecuacion5" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<div class="ff0" style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><span class="g"><span class="a">Donde </span></span><span class="g"><span class="a">i </span></span><span class="a">representa el nivel del árbol, </span><span class="a">h</span><span class="a"> su altura y <img src="img1.2.png" width="15" height="19" alt="ecuacion6" /></span><span class="a"> el número de nodos en el nivel i.</span></span></div>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id21">
+<div class="iDevice emphasis0">
+<div id="ta21_85" class="block iDevice_content">
+<h2 class="ff0"><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt;"><strong><span class="a">Longitud de Camino Máximo</span></strong></span></h2>
+<div class="ff0" style="text-align: justify;"><span class="a" style="font-size: 12pt;"></span></div>
+<div class="ff0" style="text-align: justify;"><span style="font-size: 12pt;"><span class="a">Para definir la longitud de camino máximo o longitud de camino externo de un árbol es necesario definir los conceptos de </span><span class="a">árbol </span><span class="a">extendido </span><span class="a">y </span><span class="a">nodo especial.</span></span></div>
+<div class="ff0" style="text-align: justify;"><span class="a" style="font-size: 12pt;"></span></div>
+<div class="ff3" style="text-align: justify;"><span style="font-size: 12pt;"><span class="a">Un árbol extendido es aquel en el que el número de hijos de cada nodo es igual al grado <em>m</em> del árbol.</span><span class="a">Si alguno de los nodos del árbol no cumple con esta condición entonces debe incorporarse al </span><span class="a">mismo tantos nodos imaginarios (o bien conocidos como especiales) como <span class="w6"></span>se requiera para llegar a <span class="w8"></span>cumplirla.</span><span class="a"></span></span></div>
+<div class="ff3" style="text-align: justify;"><span class="a" style="font-size: 12pt;"></span></div>
+<div class="ff3" style="text-align: justify;"><span class="a" style="font-size: 12pt;">Los nodos especiales tienen como objetivo remplazar las ramas vacías o nulas que pueden tenerdescendientes y normalmente se representan con la forma de un cuadrado.</span></div>
+<div class="ff3" style="text-align: justify;"><span class="a" style="font-size: 12pt;"></span></div>
+<div class="ff3" style="text-align: justify;"><span class="a" style="font-size: 12pt;">La longitud de camino externo (LCE) de un árbol es la suma de las longitudes de camino de todoslos nodos especiales del árbol. Se calcula de la siguiente forma:</span></div>
+<div class="ff3"><span class="a"></span></div>
+<div class="ff3"><span class="a"><img src="img0.4.png" width="137" height="71" alt="ecuacion7" style="display: block; margin-left: auto; margin-right: auto;" /></span></div>
+<div class="ff3">
+<div class="ff0"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><span class="a">Donde i representa el nivel del árbol, h su suma,<img src="img1.3.png" width="24" height="21" alt="ecuacion8" />e</span><span class="a">l número de nodos especiales en el nivel </span><span class="a">i.</span></span></div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="niveles_rbol.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="construccin_de_un_rbol.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_carm_js.js"></script></body></html>

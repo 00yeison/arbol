@@ -53,7 +53,7 @@
 .fx-carousel-pagination .fx-disabled{filter:alpha(opacity=30);opacity:.3}
 .fx-carousel-pagination .fx-disabled,.fx-carousel-pagination .fx-disabled a,.fx-carousel-pagination .fx-disabled a:hover{cursor:text;text-decoration:none}
 .fx-carousel-pagination .fx-current a{background:#333;color:#fff}
-.fx-carousel-content{display:none;background:#ededed;padding:1px 15px .5em 15px;border-radius:5px;margin:0 65px}
+.fx-carousel-content{display:none;background:#ededed00;padding:1px 15px .5em 15px;border-radius:5px;margin:0 65px}
 .fx-carousel-content.fx-current{display:block}
 .fx-carousel-pagination li{font-size:.85em}
 .fx-carousel-pagination .fx-carousel-prev-next{position:absolute;top:15px;left:0;*left:-10px} /* IE6, IE7 */
